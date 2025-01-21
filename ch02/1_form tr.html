@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,tr, td{
+            border: 2px solid;
+            border-color: rgb(178, 182, 185);
+        }
+    </style>
+</head>
+<body>
+    <form method=""post accept="">
+        <table>
+            
+            <tr>
+                <td width="100">아이디<span style="color:red;">*</td>
+                <td> <input type="text">&nbsp;<span style="background-color: black;"><span style="color: aliceblue;">아이디중복체크</span></input</td>
+            </tr>
+            <tr>
+                <td width="100">비밀번호<span style="color:red;">*</td>
+                <td><input type="password"></intput>
+            </tr>
+            <tr>
+                <td width="120">비밀번호 확인<span style="color:red;">*</td>
+                <td><input type="password"><br><span style="color: red;">10~20자 영문자로 시작하고 숫자 또는 영문 대 소문자로 조합된 문자열이어야 합니다.<br>
+                    ex)1111,aaaa,AAAA,**** 등 등록 불가 합니다.</span></intput><br>
+                    <span style="color: gray;">변경하실 경우에는 비밀번호란과 비밀번호확인란에 변경하시는 번호를 새로 입력하시면<br> 변경됩니다.</span>
+            </tr>
+            <tr>
+                <td width="100">이름<span style="color:red;">*</td>
+                <td><input type="text"></td>    
+            </tr>
+            
+            <tr>
+                <td width="100">생년월일<span style="color:red;">*</td>
+                <td><input type="date"><input type="radio">양력 <input type="radio">음력</td>   
+            </tr>
+            
+            <tr>
+                <td width="100">이메일<span style="color:red;">*</td>
+                <td><input type="email"><span style="background-color: black;"><span style="color: aliceblue;">아이디중복체크</span></td>    
+            </tr>
+            <tr>
+                <td width="100">주소<span style="color:red;">*</td>
+                <td><input type="text"><span style="background-color: black;"><span style="color: aliceblue;">우편번호검색</span><br>
+                    <input type="text"></td>    
+            </tr>
+            <tr>
+                <td width="100">핸드폰<span style="color:red;">*</td>
+                <td><input type="number"><input type="checkbox"><span style="color: rgb(34, 34, 238);">이벤트 sms수신</span><br>
+                <span style="color: orange;"><sub>※ 주문 관련 정보 등 주요 안내 사항은 수신 동의 여부에 관계없이 자동 발송됩니다.</sub></span></td>
+            </tr>
+            <tr>
+                <td width="100">전화번호<span style="color:red;">*</td>
+                <td><input type="number"></td>
+            </tr>
+
+
+        </table>
+    </form>
+</body>
+</html>

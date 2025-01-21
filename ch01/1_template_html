@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- ctrl + shift + k : 한줄 삭제 -->
+    <!-- ctrl + / : 주석 -->
+    <!-- alt+방향키 : 줄바꾸기  -->
+    <!-- alt + shift + 방향키 위아래 : 한줄 위 또는 아래 복붙 -->
+    <!-- ctrl + f : 문서내에서 찾기 -->
+
 </body>
 </html>
